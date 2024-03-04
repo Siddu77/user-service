@@ -8,6 +8,9 @@ public class UserServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(UserServiceApplication.class, args);
+		System.out.println("two");
+		System.out.println("two local two");
+		System.out.println("three local two");
 	}
 
 }
