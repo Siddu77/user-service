@@ -23,6 +23,7 @@ public class UserController {
         System.out.println("test-merge2");
         System.out.println("three test");
         System.out.println("three test");
+        System.out.println("three test223");
         return ResponseEntity.ofNullable(userService.findUserById(Integer.parseInt(id)));
     }
 }
