@@ -20,6 +20,9 @@ public class UserController {
 
     @GetMapping("/user/{id}")
     public ResponseEntity<Optional<User>> getUserById(@PathVariable("id") String id){
+        System.out.println("test-merge2");
+        System.out.println("three test");
+        System.out.println("three test");
         return ResponseEntity.ofNullable(userService.findUserById(Integer.parseInt(id)));
     }
 }
